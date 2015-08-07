@@ -1,4 +1,4 @@
-var pixie = require("pixi.js")
+//var pixie = require("pixi.js")
 
 module.exports = {
     bar: function () {

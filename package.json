@@ -12,29 +12,12 @@
   "dependencies": {},
   "devDependencies": {
     "chai": "^3.0.0",
-    "coffee-loader": "^0.7.2",
     "coffee-script": "^1.9.3",
-    "gulp": "^3.9.0",
-    "gulp-util": "^3.0.6",
-    "json-loader": "^0.5.2",
-    "karma": "^0.13",
-    "karma-chai": "^0.1.0",
-    "karma-chrome-launcher": "^0.2.0",
-    "karma-firefox-launcher": "^0.1.6",
-    "karma-ie-launcher": "^0.2.0",
-    "karma-mocha": "^0.2.0",
-    "karma-phantomjs-launcher": "^0.2.0",
-    "karma-phantomjs-shim": "^1.0.0",
-    "karma-safari-launcher": "^0.1.1",
-    "karma-webpack": "^1.7.0",
-    "mocha": "^2.2.5",
-    "phantomjs": "^1.9.17",
-    "pixi.js": "^3.0.7",
-    "webpack": "^1.10.5",
-    "webpack-dev-server": "^1.10.1"
+    "mocha": "^2.2.5"
   },
   "repository": {
     "type": "git",
     "url": "git@gitlab.com:darkhounds/aethernauts-server.git"
   }
+  
 }

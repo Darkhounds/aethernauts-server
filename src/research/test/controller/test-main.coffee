@@ -1,3 +1,5 @@
+expect = require('chai').expect
+
 describe 'Research Module', ->
     foo         = require("../../script/foo.js")
     it 'Should have foo declared', -> expect(foo).exist;
