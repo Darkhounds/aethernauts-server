@@ -8,7 +8,8 @@ describe 'An Observable', ->
     it 'Should have wrong argument type declared',      -> DecoratorObservable.ERROR_WRONG_ARGUMENT.should.be.a 'string'
     
     describe "As an instance", ->
-        dObservable             = new DecoratorObservable
+        dObservable             = DecoratorObservable.decorate {}
+        
         it 'Should implement the addEventListener method', -> dObservable.should.respondTo "addEventListener"
         it 'Should throw an error when addEventListener is missing an event type', ->
             dObservable.addEventListener.bind(undefined).should.throw Error, DecoratorObservable.ERROR_MISSING_ARGUMENT
