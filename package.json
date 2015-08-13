@@ -11,9 +11,10 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "darkhounds": "git+ssh://git@gitlab.com/darkhounds/aethernauts-server-darkhounds.git#master",
     "chai": "^3.0.0",
     "coffee-script": "^1.9.3",
+    "darkhounds": "git+ssh://git@gitlab.com/darkhounds/aethernauts-server-darkhounds.git#master",
+    "express": "^4.13.3",
     "mocha": "^2.2.5"
   },
   "repository": {
