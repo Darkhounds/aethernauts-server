@@ -1,7 +1,7 @@
 should      = (require 'chai').should()
 #
 describe 'The Abstract Model', ->
-    ModelUser   = require "../src/model/user"    
+    ModelUser   = require "../../src/model/User"    
     it 'Should be defined',                             -> should.exist ModelUser
     
     describe 'As an instance', ->

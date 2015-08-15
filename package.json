@@ -15,7 +15,10 @@
     "coffee-script": "^1.9.3",
     "darkhounds": "git+ssh://git@gitlab.com/darkhounds/aethernauts-server-darkhounds.git#master",
     "express": "^4.13.3",
-    "mocha": "^2.2.5"
+    "install": "^0.1.8",
+    "mocha": "^2.2.5",
+    "npm": "^2.13.5",
+    "sqlite3": "^3.0.10"
   },
   "repository": {
     "type": "git",
